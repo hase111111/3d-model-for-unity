@@ -1,2 +1,3 @@
-# 3d-model-for-unity
+# Carry Vault
+
 Unity向けに作成した3Dモデルのアセットを配布するためのレポジトリです．

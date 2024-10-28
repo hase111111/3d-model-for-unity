@@ -1,0 +1,9 @@
+1.Meshに名前を変える
+2.materialをcarry_vault_material
+3.テクスチャの変更
+4.法線の確認
+5.原点のチェック
+
+6.アニメーションの名前チェック
+
+carry_vault_material
