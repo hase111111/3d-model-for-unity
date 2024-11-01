@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5425263490030899483}
   - component: {fileID: 8999797287269899966}
   - component: {fileID: 6557598101508450932}
+  - component: {fileID: 1358768758512122565}
   m_Layer: 0
   m_Name: GrassTile6
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1358768758512122565
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4612170675329715105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.33914214, y: 0.33914554, z: 0.37305626}
+  m_Center: {x: 0.000000067055225, y: -0.16957259, z: 0}
