@@ -1,7 +1,7 @@
 
 # Carry Vault
 
-Japanese version of README is [here](./README_ja.md).
+英語版のREADMEは[こちら](./README.md)です。
 
 Unity向けに作成した3Dモデルのアセットを配布するためのレポジトリです。
 
@@ -11,5 +11,4 @@ Unity向けに作成した3Dモデルのアセットを配布するためのレ�
 
 # License
 
-MIT license applies.
-Please check [LICENSE](./LICENSE) for details.
+[ライセンス](./LICENSE)をご確認ください。
