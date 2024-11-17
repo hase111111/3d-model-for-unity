@@ -2,28 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CrocodileAnimeRandomPlayer : MonoBehaviour
+namespace CarryVault.Scripts.Fantasy
 {
-    float _timer = 0.0f;
-    readonly float _interval = 2.0f;
-
-    Animator _animator;
-
-    // Start is called before the first frame update
-    void Start()
+    public class CrocodileAnimeRandomPlayer : MonoBehaviour
     {
-        _animator = GetComponent<Animator>();
-    }
+        float _timer = 0.0f;
+        readonly float _interval = 2.0f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        _timer += Time.deltaTime;
+        Animator _animator;
 
-        if (_timer > _interval)
+        // Start is called before the first frame update
+        void Start()
         {
-            _timer = 0.0f;
-            _animator.SetBool("isWalking", Random.Range(0, 2) == 0);
+            _animator = GetComponent<Animator>();
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            _timer += Time.deltaTime;
+
+            if (_timer > _interval)
+            {
+                _timer = 0.0f;
+                _animator.SetBool("isWalking", Random.Range(0, 2) == 0);
+            }
         }
     }
 }
