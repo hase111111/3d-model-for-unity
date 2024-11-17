@@ -36,11 +36,11 @@ namespace CarryVault.Scripts
         // Update is called once per frame
         void Update()
         {
-            KeyInput();
+            KeyInput(_camera);
             MouseMove();
         }
 
-        void KeyInput()
+        void KeyInput(Camera _camera)
         {
             // マウスの右クリック中でなければなにもしない    
             if (!Input.GetMouseButton(1))
@@ -53,27 +53,27 @@ namespace CarryVault.Scripts
             // カメラの移動
             if (Input.GetKey(KeyCode.W))
             {
-                move_acc += _camera.transform.forward * _acceleration * Time.deltaTime;
+                move_acc += _acceleration * Time.deltaTime * _camera.transform.forward;
             }
             if (Input.GetKey(KeyCode.S))
             {
-                move_acc -= _camera.transform.forward * _acceleration * Time.deltaTime;
+                move_acc -= _acceleration * Time.deltaTime * _camera.transform.forward;
             }
             if (Input.GetKey(KeyCode.A))
             {
-                move_acc -= _camera.transform.right * _acceleration * Time.deltaTime;
+                move_acc -= _acceleration * Time.deltaTime * _camera.transform.right;
             }
             if (Input.GetKey(KeyCode.D))
             {
-                move_acc += _camera.transform.right * _acceleration * Time.deltaTime;
+                move_acc += _acceleration * Time.deltaTime * _camera.transform.right;
             }
             if (Input.GetKey(KeyCode.Q))
             {
-                move_acc -= _camera.transform.up * _acceleration * Time.deltaTime;
+                move_acc -= _acceleration * Time.deltaTime * _camera.transform.up;
             }
             if (Input.GetKey(KeyCode.E))
             {
-                move_acc += _camera.transform.up * _acceleration * Time.deltaTime;
+                move_acc += _acceleration * Time.deltaTime * _camera.transform.up;
             }
 
             _moveVelocity += move_acc;
