@@ -1,8 +1,13 @@
 
 {
   "name": "com.smile.carry_vault",
-  "version": "0.1.0",
   "displayName": "CarryVault",
-  "description": "3D asset for CarryVault",
-  "unity": "2021.3"
+  "version": "0.1.0",
+  "unity": "2021.3",
+  "description": "CarryVault is a simple vault for storing your secrets.",
+  "author": {
+    "name": "Smile",
+    "email": "hasehasehase61@gmail.com",
+    "url": "https://github.com/hase111111"
+  }
 }
