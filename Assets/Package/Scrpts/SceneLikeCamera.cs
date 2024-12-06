@@ -1,3 +1,6 @@
+
+#nullable enable
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +8,7 @@ using UnityEngine;
 
 namespace CarryVault.Scripts
 {
-    // GameシーンでもSceneビューのようにカメラを操作できるようにする
+    // Allow the camera to be controlled in Game scenes as in Scene views.
     public class SceneLikeCamera : MonoBehaviour
     {
         [SerializeField] float _maxSpeed = 10.0f;
@@ -13,14 +16,10 @@ namespace CarryVault.Scripts
         [SerializeField] float _deceleration = 0.9f;
         [SerializeField] float _rotateSpeed = 5.0f;
         Vector3 _moveVelocity;
+        Camera? _camera;
 
-        // カメラのオブジェクト
-        Camera _camera;
-
-        // Start is called before the first frame update
         void Start()
         {
-            // カメラのオブジェクトを取得
             _camera = FindObjectOfType<Camera>();
 
             if (_camera == null)
@@ -33,16 +32,17 @@ namespace CarryVault.Scripts
             }
         }
 
-        // Update is called once per frame
         void Update()
         {
             KeyInput(_camera);
             MouseMove();
         }
 
-        void KeyInput(Camera _camera)
+        void KeyInput(Camera? _camera)
         {
-            // マウスの右クリック中でなければなにもしない    
+            if (_camera == null) return;
+
+            // Do nothing unless you are in the middle of a right mouse click. 
             if (!Input.GetMouseButton(1))
             {
                 return;
@@ -50,7 +50,7 @@ namespace CarryVault.Scripts
 
             Vector3 move_acc = Vector3.zero;
 
-            // カメラの移動
+            // Move the camera.
             if (Input.GetKey(KeyCode.W))
             {
                 move_acc += _acceleration * Time.deltaTime * _camera.transform.forward;
@@ -78,36 +78,33 @@ namespace CarryVault.Scripts
 
             _moveVelocity += move_acc;
 
-            // 速度制限
+            // Limit the speed.
             if (_moveVelocity.magnitude > _maxSpeed)
             {
                 _moveVelocity = _moveVelocity.normalized * _maxSpeed;
             }
 
-            // カメラの移動
             _camera.transform.position += _moveVelocity;
 
-            // 減速
+            // Deceleration.
             _moveVelocity *= _deceleration;
         }
 
         void MouseMove()
         {
-            // マウスの右クリック中でなければなにもしない    
+            if (_camera == null) return;
+
+            // Do nothing unless you are in the middle of a right mouse click.
             if (!Input.GetMouseButton(1))
             {
                 return;
             }
 
-            // マウスの移動量
             float dx = Input.GetAxis("Mouse X") * _rotateSpeed;
             float dy = Input.GetAxis("Mouse Y") * _rotateSpeed;
 
-            // カメラの回転
             _camera.transform.RotateAround(_camera.transform.position, Vector3.up, dx);
             _camera.transform.RotateAround(_camera.transform.position, _camera.transform.right, -dy);
-
-
         }
     }
 }
