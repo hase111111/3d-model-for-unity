@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace CarryVault.Scripts.Fantasy
 {
-    public class CrocodileAnimeRandomPlayer : MonoBehaviour
+    public class LordOfTheSwampAnimeRandomPlayer : MonoBehaviour
     {
         [SerializeField] float interval = 2.0f;
         float _timer = 0.0f;
@@ -30,9 +30,9 @@ namespace CarryVault.Scripts.Fantasy
 
             if (_timer > interval)
             {
-                bool is_walking = Random.Range(0, 2) == 0;
+                int anime_index = Random.Range(0, 4);
                 _timer = 0.0f;
-                _animator.SetBool("isWalking", is_walking);
+                _animator.SetInteger("AnimeIndex", anime_index);
             }
         }
     }
