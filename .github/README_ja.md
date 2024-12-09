@@ -1,14 +1,30 @@
 
-# Carry Vault
+<div align="center">
+    <p>
+        <img src="thumbnail.png" width="50%">
+    </p>
+</div>
+
+# 🎁 Carry Vault
+
+<div align="center">
+    <p>
+        <img src="screen_shot1.png" width="45%">
+        <img src="screen_shot2.png" width="45%">
+    </p>
+</div>
 
 英語版のREADMEは[こちら](./README.md)です。
+
 Unity向けに作成した3Dモデルのアセットを配布するためのレポジトリです。
 
 ## テーマ
 
 創造性の世界への金庫の鍵を開けよう！
+
 CarryVaultは、遊び心のある3Dモデルを配布するためにデザインされたUnityパッケージです。
 このパッケージは、ファンタジーの世界、ロボットの仲間、古代の遺跡など、さまざまなテーマに最適なローポリで鮮やかなモデルを提供します。
+
 アニメーションが内蔵されているので、シーンに命を吹き込むのがかつてないほど簡単になりました。
 気まぐれな世界や壮大な冒険など、CarryVaultはあなたのアイデアを次のレベルへと導きます。
 

@@ -1,11 +1,22 @@
 
+![](https://img.shields.io/github/license/hase111111/carry-vault)
+![](https://img.shields.io/github/v/release/hase111111/carry-vault)
+
+
 <div align="center">
     <p>
         <img src="thumbnail.png" width="50%">
     </p>
 </div>
 
-# Carry Vault
+# 🎁 Carry Vault
+
+<div align="center">
+    <p>
+        <img src="screen_shot1.png" width="45%">
+        <img src="screen_shot2.png" width="45%">
+    </p>
+</div>
 
 Japanese version of README is [here](./README_ja.md).
 
