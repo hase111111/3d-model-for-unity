@@ -14,8 +14,10 @@ A repository for distributing assets of 3D models created for Unity.
 ## Theme
 
 Unlock the vault to a world of creativity!
+
 CarryVault is a Unity package designed for distributing 3D models with a twist of fun.
 This package offers low-poly, vibrant models perfect for a variety of themes including fantasy realms, robot companions, and ancient ruins.
+
 With built-in animations, it's never been easier to bring your scenes to life.
 Whether you're building a whimsical world or an epic adventure, CarryVault is here to carry your ideas to the next level.
 
