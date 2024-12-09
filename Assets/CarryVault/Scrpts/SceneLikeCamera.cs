@@ -20,15 +20,15 @@ namespace CarryVault.Scripts
 
         void Start()
         {
-            _camera = FindObjectOfType<Camera>();
-
-            if (_camera == null)
+            if (TryGetComponent(out Camera camera))
             {
-                Debug.LogError("Camera not found");
+                _camera = camera;
+
+                Debug.Log("SceneLikeCamera: Camera component found.");
             }
             else
             {
-                Debug.Log("Camera found");
+                Debug.LogError("SceneLikeCamera: Camera component not found.");
             }
         }
 
