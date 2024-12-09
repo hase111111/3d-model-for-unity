@@ -11,10 +11,10 @@ namespace CarryVault.Scripts
     // Allow the camera to be controlled in Game scenes as in Scene views.
     public class SceneLikeCamera : MonoBehaviour
     {
-        [SerializeField] float _maxSpeed = 10.0f;
-        [SerializeField] float _acceleration = 1.0f;
-        [SerializeField] float _deceleration = 0.9f;
-        [SerializeField] float _rotateSpeed = 5.0f;
+        [SerializeField, Range(0.0f, 50.0f)] float _maxSpeed = 10.0f;
+        [SerializeField, Range(0.5f, 5.0f)] float _acceleration = 1.0f;
+        [SerializeField, Range(0.0f, 0.999f)] float _deceleration = 0.9f;
+        [SerializeField, Range(0.0f, 10.0f)] float _rotateSpeed = 3.0f;
         Vector3 _moveVelocity;
         Camera? _camera;
 
