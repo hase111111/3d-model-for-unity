@@ -1,5 +1,9 @@
 
-![CarryVaultThumbnail](thumbnail_small.png)
+<div align="center">
+    <p>
+        <img src="thumbnail.png" width="50%">
+    </p>
+</div>
 
 # Carry Vault
 
