@@ -1,4 +1,6 @@
 
+![CarryVaultThumbnail](thumbnail_small.png)
+
 # Carry Vault
 
 Japanese version of README is [here](./README_ja.md).
