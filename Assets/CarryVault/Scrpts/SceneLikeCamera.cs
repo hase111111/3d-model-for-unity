@@ -20,10 +20,10 @@ namespace CarryVault.Scripts
 
         void Start()
         {
-            if (TryGetComponent(out Camera camera))
-            {
-                _camera = camera;
+            _camera = Camera.main;
 
+            if (_camera != null)
+            {
                 Debug.Log("SceneLikeCamera: Camera component found.");
             }
             else
