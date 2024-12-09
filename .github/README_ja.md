@@ -44,6 +44,31 @@ CarryVaultは、遊び心のある3Dモデルを配布するためにデザイ�
 
 Unity Package Managerを使ってインストールできます。
 
+<div align="center">
+    <p>
+        <img src="how_to_use1.png" width="70%">
+    </p>
+</div>
+
+Unityのメニューから「Window」→「Package Manager」を選択し，「+」ボタンをクリックして「Add package from git URL...」を選択します。
+
+<div align="center">
+    <p>
+        <img src="how_to_use2.png" width="45%">
+        <img src="how_to_use3.png" width="50%">
+    </p>
+</div>
+
+以下のURLを入力して「Add」ボタンをクリックします。
+
+```bash
+https://github.com/hase111111/carry-vault.git?path=Assets/CarryVault
+```
+
+以上でインストール完了です。
+
+### パッケージに含まれるアセット
+
 パッケージに含まれるアセットは以下の通りです。
 
 - Materials: 3Dモデルに適用するマテリアル
