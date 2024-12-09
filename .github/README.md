@@ -1,13 +1,13 @@
 
-![](https://img.shields.io/github/license/hase111111/carry-vault)
-![](https://img.shields.io/github/v/release/hase111111/carry-vault)
-
-
 <div align="center">
     <p>
         <img src="thumbnail.png" width="50%">
     </p>
 </div>
+
+![](https://img.shields.io/github/license/hase111111/carry-vault)
+![GitHub repo size](https://img.shields.io/github/repo-size/hase111111/carry-vault)
+![GitHub Tag](https://img.shields.io/github/v/tag/hase111111/carry-vault)
 
 # 🎁 Carry Vault
 
