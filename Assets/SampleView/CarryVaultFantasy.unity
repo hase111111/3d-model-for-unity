@@ -1082,7 +1082,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 594649090833754314, guid: 49eb00cca2064874c8c35d3f056c29bf, type: 3}
       propertyPath: m_Name
-      value: GrassTiles (1)
+      value: GrassTiles2
       objectReference: {fileID: 0}
     - target: {fileID: 8248658655450357474, guid: 49eb00cca2064874c8c35d3f056c29bf, type: 3}
       propertyPath: m_RootOrder
@@ -1387,7 +1387,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 594649090833754314, guid: 49eb00cca2064874c8c35d3f056c29bf, type: 3}
       propertyPath: m_Name
-      value: GrassTiles
+      value: GrassTiles1
       objectReference: {fileID: 0}
     - target: {fileID: 8248658655450357474, guid: 49eb00cca2064874c8c35d3f056c29bf, type: 3}
       propertyPath: m_RootOrder
