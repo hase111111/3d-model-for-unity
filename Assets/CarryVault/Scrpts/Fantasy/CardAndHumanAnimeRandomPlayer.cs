@@ -1,18 +1,39 @@
+
+#nullable enable
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CardAndHumanAnimeRandomPlayer : MonoBehaviour
+namespace CarryVault.Scripts.Fantasy
 {
-    // Start is called before the first frame update
-    void Start()
+    public class CardAndHumanAnimeRandomPlayer : MonoBehaviour
     {
-        
-    }
+        [SerializeField] float interval = 2.0f;
+        float _timer = 0.0f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Animator? _animator;
+
+        void Start()
+        {
+            if (!TryGetComponent<Animator>(out _animator))
+            {
+                Debug.LogError("Animator is not found.");
+            }
+        }
+
+        void Update()
+        {
+            if (_animator == null) return;
+
+            _timer += Time.deltaTime;
+
+            if (_timer > interval)
+            {
+                bool is_walking = Random.Range(0, 2) == 0;
+                _timer = 0.0f;
+                _animator.SetBool("isWalking", is_walking);
+            }
+        }
     }
 }
