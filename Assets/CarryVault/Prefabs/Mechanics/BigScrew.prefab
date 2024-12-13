@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4708046084776244367}
   - component: {fileID: 8573038865022892842}
   - component: {fileID: 5844962190349455328}
+  - component: {fileID: 6344457846142288760}
   m_Layer: 0
   m_Name: BigScrew
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6344457846142288760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5340572432223825461}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5747978, y: 0.999987, z: 0.6637193}
+  m_Center: {x: 0, y: -0.0027250797, z: 0}

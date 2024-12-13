@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3836939972590464517}
   - component: {fileID: 184743269023834528}
   - component: {fileID: 2698958341469607274}
+  - component: {fileID: 781427492361621476}
   m_Layer: 0
   m_Name: BigWrench
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &781427492361621476
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4500323357068113087}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.586156, y: 0.23420861, z: 0.6736804}
+  m_Center: {x: 0.00030618906, y: 0.0010250174, z: 0.010959521}
