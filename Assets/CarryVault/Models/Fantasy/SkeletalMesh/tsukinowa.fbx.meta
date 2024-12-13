@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: player_cloth_material
-    second: {fileID: 2100000, guid: a14094e7b8e861444959762d3deb414b, type: 2}
+    second: {fileID: 2100000, guid: 96a79a679cf12714caebc927457c7d0c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
