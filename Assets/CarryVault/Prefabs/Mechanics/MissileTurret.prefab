@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 120124527792171722}
   - component: {fileID: 3892551582248740207}
   - component: {fileID: 1288566345881014693}
+  - component: {fileID: 1718554063017579758}
   m_Layer: 0
   m_Name: MissileTurret
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1718554063017579758
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783930021653606512}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9, y: 1.4, z: 0.9}
+  m_Center: {x: -0.00014486909, y: 0.7, z: -0.0115404725}
