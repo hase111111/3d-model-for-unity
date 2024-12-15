@@ -18,6 +18,16 @@
       "displayName": "Fantasy Assets Sample Scene",
       "description": "A sample scene showcasing the fantasy",
       "path": "SampleView/Fantasy"
+    },
+    {
+      "displayName": "Machanics Assets Sample Scene",
+      "description": "A sample scene showcasing the robot",
+      "path": "SampleView/Machanics"
+    },
+    {
+      "displayName": "Ruins Assets Sample Scene",
+      "description": "A sample scene showcasing the ruins",
+      "path": "SampleView/Ruins"
     }
   ]
 }
