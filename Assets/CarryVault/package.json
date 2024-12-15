@@ -20,14 +20,14 @@
       "path": "SampleView/Fantasy"
     },
     {
-      "displayName": "Machanics Assets Sample Scene",
+      "displayName": "Mechanics Assets Sample Scene",
       "description": "A sample scene showcasing the robot",
-      "path": "SampleView/Machanics"
+      "path": "SampleView/Mechanics"
     },
     {
-      "displayName": "Ruins Assets Sample Scene",
+      "displayName": "Ruin Assets Sample Scene",
       "description": "A sample scene showcasing the ruins",
-      "path": "SampleView/Ruins"
+      "path": "SampleView/Ruin"
     }
   ]
 }
