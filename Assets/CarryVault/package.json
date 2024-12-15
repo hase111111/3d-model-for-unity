@@ -12,5 +12,12 @@
   },
   "documentationUrl": "https://github.com/hase111111/carry-vault#readme",
   "license": "https://github.com/hase111111/carry-vault#License",
-  "dependencies": {}
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "Fantasy Assets Sample Scene",
+      "description": "A sample scene showcasing the fantasy",
+      "path": "SampleView/Fantasy"
+    }
+  ]
 }
