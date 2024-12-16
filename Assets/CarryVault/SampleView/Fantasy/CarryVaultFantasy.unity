@@ -929,7 +929,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.6
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -1046,6 +1046,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6938071899890260565, guid: 7e8072599c01e494bb3349bdd65fedee, type: 3}
   m_PrefabInstance: {fileID: 834813686}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &862723290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7896359311970989109, guid: 3648149b60a7c534fae7b6df495e086c, type: 3}
+  m_PrefabInstance: {fileID: 7013486864585382197}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &932472844 stripped
 Transform:
@@ -2668,6 +2673,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7412450383006576271, guid: 3648149b60a7c534fae7b6df495e086c, type: 3}
   m_PrefabInstance: {fileID: 7013486864585382197}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &543450652817913788
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862723290}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ac07a8783a796864b9e6f046b65c7dc7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &543450652817913789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862723290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb8bf777baa04b46a31b66ad5c22d3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interval: 2
 --- !u!4 &543450652829355946 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8380794634321561138, guid: 711b19594dd09de48bf80c18e27849f7, type: 3}
