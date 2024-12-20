@@ -5,6 +5,10 @@
     </p>
 </div>
 
+![](https://img.shields.io/github/license/hase111111/carry-vault)
+![GitHub repo size](https://img.shields.io/github/repo-size/hase111111/carry-vault)
+![GitHub Tag](https://img.shields.io/github/v/release/hase111111/carry-vault)
+
 # 🎁 Carry Vault
 
 <div align="center">
@@ -98,11 +102,36 @@ Carry VaultはMITライセンスで配布しています。
 
 利用方法についての質問がある場合は，メールにてお問い合わせください。
 
-### 連絡先
-
-- メール: hasehasehase61@gmail.com
-
 ## 3D Models
 
 元のデータ（blendファイル，fbxファイル）はRawDataディレクトリにあります。
 これらはすべてBlenderで作成されています。
+
+モデルの編集を行う場合は，このデータを使用してください。
+
+## URP環境下での利用方法
+
+Carry VaultはUniversal Render Pipeline（URP）環境下で表示すると，マテリアルが正しく表示されない場合があります。
+
+![urp_error](urp_error.png)
+
+このような場合は，以下の手順でマテリアルを修正してください。
+
+- CarryVaultフォルダ内のMaterialsフォルダを開く
+- マテリアルをクリックする
+- 画面上部のメニューから，「Edit」→「Rendering」→「Materials」→「Convert Selected Build-in Material to URP」を選択する
+
+<div align="center">
+    <p>
+        <img src="how_to_use4.png" width="45%">
+        <img src="how_to_use5.png" width="50%">
+    </p>
+</div>
+
+これで，マテリアルがURP環境下で正しく表示されるようになります。
+
+![urp_success](correct.png)
+
+## お問い合わせ
+
+- メール: hasehasehase61@gmail.com

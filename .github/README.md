@@ -7,7 +7,7 @@
 
 ![](https://img.shields.io/github/license/hase111111/carry-vault)
 ![GitHub repo size](https://img.shields.io/github/repo-size/hase111111/carry-vault)
-![GitHub Tag](https://img.shields.io/github/v/tag/hase111111/carry-vault)
+![GitHub Tag](https://img.shields.io/github/v/release/hase111111/carry-vault)
 
 # 🎁 Carry Vault
 
@@ -100,11 +100,38 @@ Regardless of whether it is for personal or commercial use, we ask that you refr
 
 If you have any questions about how to use the site, please contact us by e-mail.
 
-### Contact
-
-- E-Mail: hasehasehase61@gmail.com
-
 ## 3D Models
 
 The original data (blend and fbx files) are located in the RawData directory.
 They are all created in Blender.
+
+Use this data when editing the model.
+
+## How to use under the URP environment
+
+When Carry Vault is displayed under the Universal Render Pipeline (URP) environment, materials may not be displayed correctly.
+
+![urp_error](urp_error.png)
+
+In such cases, please follow the steps below to modify the materials.
+
+- Open the Materials folder in the CarryVault folder
+- Click on the material.
+- Select “Edit” -> “Rendering” -> “Materials” -> “Convert Selected Build-in Material to URP” from the menu at the top of the screen
+
+<div align="center">
+    <p>
+        <img src="how_to_use4.png" width="45%">
+        <img src="how_to_use5.png" width="50%">
+    </p>
+</div>
+
+The material will now be correctly displayed in the URP environment.
+
+![urp_success](correct.png)
+
+## Contact
+
+If you have any questions, please contact us by e-mail.
+
+- E-mail: hasehasehase61@gmail.com
