@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4993577655369340332}
   - component: {fileID: 8278491321607461385}
   - component: {fileID: 6127126089027415747}
+  - component: {fileID: 2262970660169421936}
   m_Layer: 0
   m_Name: StoneGuardian
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2262970660169421936
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5622481107622448918}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.435082, y: 1.435082, z: 1.135082}
+  m_Center: {x: 0, y: 0, z: 0}

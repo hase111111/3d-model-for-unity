@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8824803353631573472}
   - component: {fileID: 5609273406725671493}
   - component: {fileID: 7655225705671507599}
+  - component: {fileID: 5131238104571035231}
   m_Layer: 0
   m_Name: FragileBlock
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5131238104571035231
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8159448612973223770}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.92701685, y: 0.90317327, z: 0.95793235}
+  m_Center: {x: 0.000000029802322, y: 0.4525117, z: 0}

@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: f4180de1b73b91d41acd5c5aa5dbc64b
+guid: 4fa0e0fc9c3b6154d975feca0b52adf6
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carry_vault_tex
+    second: {fileID: 2100000, guid: a14094e7b8e861444959762d3deb414b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
