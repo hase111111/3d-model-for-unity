@@ -2,7 +2,7 @@
 {
   "name": "com.smile.carry_vault",
   "displayName": "CarryVault",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2021.3",
   "description": "Unlock the vault to a world of creativity! \n\n CarryVault is a Unity package designed for distributing 3D models with a twist of fun. This package offers low-poly, vibrant models perfect for a variety of themes including fantasy realms, robot companions, and ancient ruins. \n\n With built-in animations, it's never been easier to bring your scenes to life. Whether you're building a whimsical world or an epic adventure, CarryVault is here to carry your ideas to the next level.",
   "author": {
@@ -17,17 +17,17 @@
     {
       "displayName": "Fantasy Assets Sample Scene",
       "description": "A sample scene showcasing the fantasy",
-      "path": "Samples~/Fantasy"
+      "path": "Samples/Fantasy"
     },
     {
       "displayName": "Mechanics Assets Sample Scene",
       "description": "A sample scene showcasing the robot",
-      "path": "Samples~/Mechanics"
+      "path": "Samples/Mechanics"
     },
     {
       "displayName": "Ruin Assets Sample Scene",
       "description": "A sample scene showcasing the ruins",
-      "path": "Samples~/Ruin"
+      "path": "Samples/Ruin"
     }
   ]
 }
