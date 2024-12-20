@@ -3,12 +3,7 @@ guid: 06fc6d4cfba60274f9d8aaffd3f96dcd
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: carry_vault_material
-    second: {fileID: 2100000, guid: a14094e7b8e861444959762d3deb414b, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
