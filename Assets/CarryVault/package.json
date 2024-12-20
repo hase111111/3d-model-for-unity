@@ -17,17 +17,17 @@
     {
       "displayName": "Fantasy Assets Sample Scene",
       "description": "A sample scene showcasing the fantasy",
-      "path": "Samples/Fantasy"
+      "path": "Samples~/Fantasy"
     },
     {
       "displayName": "Mechanics Assets Sample Scene",
       "description": "A sample scene showcasing the robot",
-      "path": "Samples/Mechanics"
+      "path": "Samples~/Mechanics"
     },
     {
       "displayName": "Ruin Assets Sample Scene",
       "description": "A sample scene showcasing the ruins",
-      "path": "Samples/Ruin"
+      "path": "Samples~/Ruin"
     }
   ]
 }
